@@ -275,7 +275,7 @@ min-height:76px;}
 .post-body a:visited{color:#246B8F;text-decoration: underline;}
 .post-body a:hover,.post-body a:visited:hover{color:#996FDF;text-decoration:underline;}
 .post-body a:active{color:#996FDF;text-decoration:underline;}
-a:hover img.over{opacity:0.6;filter:alpha(opacity=60);}
+a:hover img.over{opacity:0.9;filter:alpha(opacity=90);}
 img{border:0; vertical-align:bottom;}
 table{border-collapse:collapse;border-spacing:0;}
 /* float */
@@ -313,6 +313,7 @@ margin:1em 0;
 /*文字装飾*/
 .post-body strong{color:#6551AD;}
 .post-body .s16{font-size:16px !important;line-height;1.3 !important;}
+.post-body .s14{font-size:14px !important;line-height;1.3 !important;}
 .post-body .s13{font-size:13px !important;line-height;1.3 !important;}
 .post-body .s12{font-size:12px !important;line-height;1.3 !important;}
 .post-body .s11{font-size:11px !important;line-height;1.3 !important;}
@@ -327,13 +328,14 @@ margin:1em 0;
 #Blog1 .blue{color:blue;}
 #Blog1 .murasaki{color:#7116E9;}
 
-
 /*位置調整*/
 .post-body .mgn-t0{margin-top:0 !important;}
 .post-body .mgn-t5{margin-top:5px !important;}
 .post-body .mgn-t10{margin-top:10px !important;}
-.post-body .mgn-b0{margin-bottom:0 !important;}
 .post-body .mgn-t15{margin-top:15px !important;}
+.post-body .mgn-t20{margin-top:20px !important;}
+
+.post-body .mgn-b0{margin-bottom:0 !important;}
 
 .post-body .mgn-l0{margin-left:0 !important;}
 .post-body .mgn-r0{margin-right:0 !important;}
@@ -346,6 +348,23 @@ margin:1em 0;
 .post-body .pos-l1m{position:relative;left:-1em;}
 .post-body .remark{padding-left:1em !important;text-indent:-1em;}
 
+/*位置調整2*/
+.post-body .mgn_t5{margin-top:5px !important;}
+.post-body .mgn_t10{margin-top:10px !important;}
+.post-body .mgn_t15{margin-top:15px !important;}
+.post-body .mgn_t20{margin-top:20px !important;}
+.post-body .mgn_t25{margin-top:25px !important;}
+.post-body .mgn_t30{margin-top:30px !important;}
+
+.post-body .pdn_b5{padding-bottom:5px !important;}
+.post-body .pdn_b10{padding-bottom:10px !important;}
+.post-body .pdn_b15{padding-bottom:15px !important;}
+.post-body .pdn_b20{padding-bottom:20px !important;}
+.post-body .pdn_b25{padding-bottom:25px !important;}
+.post-body .pdn_b30{padding-bottom:30px !important;}
+
+/*画像*/
+.post-body .sc{text-align:center;margin-top:10px;padding-bottom:10px;}
 
 
 /*自己紹介*/
@@ -440,7 +459,7 @@ pre {
      height: 30px;
      display: block;
      margin-bottom: 0px;
-     background:url(pagetopback.gif) no-repeat center center;
+     background:url(https://lh4.googleusercontent.com/-eq0fiMa8N70/UgP9XMXwR6I/AAAAAAAAFS0/Ed7xNU18zOY/s161/pagetopback.gif) no-repeat center center;
  
      /* transition */
      -webkit-transition: 1s;
@@ -514,7 +533,7 @@ pre {
     font-size:12px;
     line-height:1.3;
     }
-a:hover img.over{opacity:0.6;filter:alpha(opacity=60);}
+a:hover img.over{opacity:0.9;filter:alpha(opacity=90);}
 
 #Blog1 ul.num{padding-bottom:15px !important;}
 #Blog1 ul.num li{
@@ -543,5 +562,31 @@ a:hover img.over{opacity:0.6;filter:alpha(opacity=60);}
 #Blog1 .chat .line2{ margin-top:5px;}
 
 
-	
+#Blog1 .codebox{
+    margin:10px 0;
+    padding:1em;
+    background-color:#272822;
+    color:#eee;
+    font-size:84%;
+    line-height:1.3;
+}
+#Blog1 .logbox{
+    margin:3px 0 10px;
+    padding:1em;
+    background-color:#222;
+    color:#00ff00;
+    font-size:80%;
+    line-height:1.3;
+}
+#Blog1 .tab1{ margin-left:2em;}
+#Blog1 .tab2{ margin-left:4em;}
+#Blog1 .mgn_b1l{ margin-bottom:1em;}
+#Blog1 .aka{color:#f92672;}
+#Blog1 .midori{color:#a6e22d;}
+#Blog1 .kiiro{color:#e6db74;}
+#Blog1 .ao{color:#52d9d0;}
+#Blog1 .ora{color:#fd971f;}
+#Blog1 .com{color:#666666;}
+#Blog1 .mra{color:#ae81ff;}
+#Blog1 .log1{color:#fff;}
 
