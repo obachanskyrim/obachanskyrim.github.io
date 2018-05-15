@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-	color:red;
+	color:#333;
 	font-size:12px;
 	font-family:"小塚ゴシック","ＭＳゴシック";
 	line-height:1.4;
@@ -11,7 +11,7 @@ line-break: strict;
 	}
 /*画面全体全体*/
 .content-fauxcolumns{
-	background:url(back_block.gif) center top #000;
+	background:url(http://obachanskyrim.github.io/images/back_block.gif) center top #000;
 }
 
 /*コンテンツ*/
@@ -30,7 +30,7 @@ line-break: strict;
 }
 .main-outer {
 	border-top:none;
-	background:url(paper_back.jpg) repeat-y;
+	background:url(http://obachanskyrim.github.io/images/paper_back.jpg) repeat-y;
 }
 .fauxcolumn-right-outer,.fauxcolumn-inner {border-left: none !important;}
 .widget {margin:10px 0 20px;}
@@ -43,7 +43,7 @@ line-break: strict;
 	margin:10px 5px 0 54px !important;
 }
 #Blog1 .date-outer{
-	background:url(blog_post650_top.gif) center top no-repeat;
+	background:url(http://obachanskyrim.github.io/images/blog_post650_top.gif) center top no-repeat;
 	background-color:none !important;
 	padding-top:30px;
 	margin-bottom:30px;
@@ -52,7 +52,7 @@ line-break: strict;
 .column-center-outer {width:710px !important;}
 
 h2.date-header {
-	background:url(blog_post650_mid.gif) repeat-y;
+	background:url(http://obachanskyrim.github.io/images/blog_post650_mid.gif) repeat-y;
     font: 11px Verdana,sans-serif !important;
 		width:600px;
 		padding:0px 25px 0;
@@ -69,7 +69,7 @@ h2.date-header {
 	line-height: 1.7 !important;
 	width:600px;
 	margin:0 auto;
-	background:url(blog_post650_mid.gif) repeat-y;
+	background:url(http://obachanskyrim.github.io/images/blog_post650_mid.gif) repeat-y;
 	padding:0 25px;
 /*	word-wrap: break-word !important;
 	word-break: break-all !important;*/
@@ -90,13 +90,13 @@ h2.date-header {
 width:600px;
 margin:0 auto;
 padding:0 25px;
-background:url(blog_post650_mid.gif) repeat-y !important;
+background:url(http://obachanskyrim.github.io/images/blog_post650_mid.gif) repeat-y !important;
 }
 .post-footer-line-3 {
 width:600px;
 padding:0 25px;
 margin:0 auto;
-background:url(blog_post650_btm.gif) center bottom no-repeat !important;
+background:url(http://obachanskyrim.github.io/images/blog_post650_btm.gif) center bottom no-repeat !important;
 	height:30px;
 }
 
@@ -122,7 +122,7 @@ background:none !important;
 .column-right-inner{padding:0 !important;}
 .column-right-inner .section{margin:0  !important;}
 #sidebar-right-1 h2{
-background:url(h_back.gif) no-repeat;
+background:url(http://obachanskyrim.github.io/images/h_back.gif) no-repeat;
 color:#fff !important;
 font-weight:bold !important;
 font-size:12px !important;
@@ -146,7 +146,7 @@ h3.post-title{
 		width:600px;
     font: 18px "メイリオ","小塚ゴシック","ＭＳゴシック" !important;
     margin:0 auto !important;
-background:url(blog_post650_mid.gif) repeat-y;
+background:url(http://obachanskyrim.github.io/images/blog_post650_mid.gif) repeat-y;
 padding:0 25px 10px;
 }
 .post-header,.post-header-line-1{
@@ -190,7 +190,7 @@ header a:hover,#header a:visited:hover{text-decoration:none !important;}
 header a:active{text-decoration:none !important;}
 
 .header-outer {
-    background:url(paper_header.jpg) no-repeat;
+    background:url(http://obachanskyrim.github.io/images/paper_header.jpg) no-repeat;
 }
 .header-inner .Header .descriptionwrapper {
     margin-bottom: 0 !important;
@@ -240,7 +240,7 @@ display:inline;
     padding: 0 !important;
 }
 /*フッター*/
-footer{background:url(paper_footer.gif) center top no-repeat;
+footer{background:url(http://obachanskyrim.github.io/images/paper_footer.gif) center top no-repeat;
 min-height:76px;}
 .footer-outer {
     border:none !important;;
@@ -440,7 +440,7 @@ pre {
      height: 30px;
      display: block;
      margin-bottom: 0px;
-     background:url(pagetopback.gif) no-repeat center center;
+     background:url(http://obachanskyrim.github.io/images/pagetopback.gif) no-repeat center center;
  
      /* transition */
      -webkit-transition: 1s;
@@ -542,6 +542,8 @@ a:hover img.over{opacity:0.6;filter:alpha(opacity=60);}
 #Blog1 .chat .line1{ margin-top:14px;}
 #Blog1 .chat .line2{ margin-top:5px;}
 
-
+#Header1 .description {
+margin: -30px 150px 0 0 !important;
+}
 	
 
